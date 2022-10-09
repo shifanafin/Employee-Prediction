@@ -15,39 +15,8 @@ function Contact() {
       <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
     </div>
     <div className="row gx-lg-0 gy-4">
-      <div className="col-lg-4">
-        <div className="info-container d-flex flex-column align-items-center justify-content-center">
-          <div className="info-item d-flex">
-            <i className="bi bi-geo-alt flex-shrink-0" />
-            <div>
-              <h4>Location:</h4>
-              <p>A108 Adam Street, New York, NY 535022</p>
-            </div>
-          </div>{/* End Info Item */}
-          <div className="info-item d-flex">
-            <i className="bi bi-envelope flex-shrink-0" />
-            <div>
-              <h4>Email:</h4>
-              <p>info@example.com</p>
-            </div>
-          </div>{/* End Info Item */}
-          <div className="info-item d-flex">
-            <i className="bi bi-phone flex-shrink-0" />
-            <div>
-              <h4>Call:</h4>
-              <p>+1 5589 55488 55</p>
-            </div>
-          </div>{/* End Info Item */}
-          <div className="info-item d-flex">
-            <i className="bi bi-clock flex-shrink-0" />
-            <div>
-              <h4>Open Hours:</h4>
-              <p>Mon-Sat: 11AM - 23PM</p>
-            </div>
-          </div>{/* End Info Item */}
-        </div>
-      </div>
-      <div className="col-lg-8">
+   
+      <div className="col-lg-12">
         <form action="forms/contact.php" method="post" role="form" className="php-email-form">
           <div className="row">
             <div className="col-md-6 form-group">

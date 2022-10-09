@@ -34,10 +34,10 @@ function Hero() {
       </h2>
       
     
-        <div style={{paddingLeft:"100px" }} className="d-flex justify-content-center justify-content-lg-start">
+        {/* <div style={{paddingLeft:"100px" }} className="d-flex justify-content-center justify-content-lg-start">
           <NavLink to="/AdminLogin"  className="btn-get-started">Admin Login</NavLink>
          
-        </div>
+        </div> */}
       </div>
       <div  className=" moveArrow  col-lg-6 order-1 order-lg-2">
         <img src="assets/img/erp2.png" className="img-fluid" alt="erp software" data-aos="zoom-out" data-aos-delay={100} />

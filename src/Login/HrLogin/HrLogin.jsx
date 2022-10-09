@@ -1,6 +1,8 @@
 import React from 'react'
 import { useEffect } from 'react'
+import { Link } from 'react-router-dom';
 import "../HrLogin/HrLogin.css"
+import Dashboard from "../../dashboard/DashboardMain/Dashboard"
 
 function HrLogin() {
 
@@ -52,16 +54,22 @@ signupBtn.addEventListener("click", (e) => {
       <input type="email" className="input" placeholder="Email" />
       <input type="password" className="input" placeholder="Password" />
     </div>
+   
     <button  className="submit-btn">Sign up</button>
+  
   </div>
   <div className="login slide-up">
     <div className="center">
+      
       <button onClick={hrLogin} className="form-title" id="login"><span>or</span>Log in</button>
+      
       <div className="form-holder">
         <input type="email" className="input" placeholder="Email" />
         <input type="password" className="input" placeholder="Password" />
       </div>
+      <Link  to="/Dashboard" >
       <button className="submit-btn">Log in</button>
+      </Link>
     </div>
   </div>
 </div>
