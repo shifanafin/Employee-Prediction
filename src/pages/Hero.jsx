@@ -29,7 +29,7 @@ function Hero() {
         }}
         />
         </span>
-        <h4 style={{paddingTop:"20px"}}>Bring the operations and team together.
+        <h4 style={{paddingTop:"20px", color:"white"}}>Bring the operations and team together.
         Adapt and innovate with the only profito </h4>
       </h2>
       

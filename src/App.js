@@ -13,9 +13,15 @@ import Accounting from "./Login/Accouting/Accounting";
 import ProjectLogin from "./Login/Project/ProjectLogin";
 // import "../node_modules/react-bootstrap/dist/react-bootstrap.js"
 // import "../node_modules/bootstrap/dist/css/bootstrap.css"
-// import EmployeeForm from "./dashboard/employee/EmployeeForm";
-import SideBar from "./dashboard/SideBar/SideBar";
+import EmployeeForm from "./dashboard/DashboardMain/EmployeeForm";
 import Dashboard from "./dashboard/DashboardMain/Dashboard";
+import EmployeeDetails from "./dashboard/DashboardMain/EmployeeDetails";
+import HRreport from "./dashboard/DashboardMain/HRreport";
+import Account from "./dashboard/DashboardMain/Account";
+import ProjectAdmin from "./dashboard/DashboardMain/ProjectAdmin";
+import EmployeeAdmin from "./dashboard/DashboardMain/EmployeeAdmin";
+
+
 
 
 
@@ -35,18 +41,17 @@ function App() {
       <Route path="/HrLogin" element={<HrLogin/>}/>
       <Route path="/Accounting" element={<Accounting/>}/>
       <Route path="/ProjectLogin" element={<ProjectLogin/>}/>
-      <Route path="/SideBar" element={<SideBar/>}/>
-      {/* <Route path='/EmployeeForm' element={< EmployeeForm/>} /> */}
-      
-      <Route path="/Dashboard/*" element={<Dashboard/>}/>  
-     
-    
-    </Routes>
-    
-   
+      <Route path='/EmployeeForm' element={<EmployeeForm/>} />
+      <Route path="/EmployeeDetails" element={<EmployeeDetails/>} />
+      <Route path="/Dashboard" element={<Dashboard/>}/>  
+      <Route path="/HRreport" element={<HRreport/>}/>  
+      <Route path="/Account" element={<Account/>}/>  
+      <Route path="/ProjectAdmin" element={<ProjectAdmin/>}/>  
+      <Route path="/EmployeeAdmin" element={<EmployeeAdmin/>}/>  
 
-    
-    <Footer/>
+
+   </Routes>
+<Footer/>
    
   
     </div>
